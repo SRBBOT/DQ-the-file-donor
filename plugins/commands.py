@@ -29,7 +29,6 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
                 ],[
                     InlineKeyboardButton('♻️ 𝐉ᴏɪɴ 𝐔ᴘᴅᴀᴛᴇ 𝐂ʜᴀɴɴᴇ𝐥 ♻️', url=CHNL_LNK)
                   ]]
@@ -58,7 +57,6 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
                 ],[
                     InlineKeyboardButton('♻️ 𝐉ᴏɪɴ 𝐔ᴘᴅᴀᴛᴇ 𝐂ʜᴀɴɴᴇ𝐥 ♻️', url=CHNL_LNK)
                   ]]
@@ -107,7 +105,6 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
                 ],[
                     InlineKeyboardButton('♻️ 𝐉ᴏɪɴ 𝐔ᴘᴅᴀᴛᴇ 𝐂ʜᴀɴɴᴇ𝐥 ♻️', url=CHNL_LNK)
                   ]]

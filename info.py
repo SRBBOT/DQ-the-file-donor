@@ -47,13 +47,13 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "myd")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', True))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/SRB_MOVIEZ/14")
 VERIFY2_URL = environ.get('VERIFY2_URL', "urlshortx.com")
 VERIFY2_API = environ.get('VERIFY2_API', "7bbbfec870fabf11b3ce6b45b391865d6f2eaca6")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urlshortx.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '7bbbfec870fabf11b3ce6b45b391865d6f2eaca6')
-IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
+IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)

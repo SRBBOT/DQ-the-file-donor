@@ -8,5 +8,5 @@ else
 fi
 cd /DQTheFileDonor
 pip3 install -U -r requirements.txt
-echo "Starting DQ-The-File-Donor...."
+echo "Starting DQTheFileDonor...."
 python3 bot.py
